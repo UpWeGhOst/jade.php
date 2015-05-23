@@ -4,9 +4,15 @@
 
 namespace UpWeGhOst\JadeExtender;
 
+use Everzet\Jade\Dumper\DumperInterface;
 use Everzet\Jade\Jade;
+use Everzet\Jade\Parser;
 
 class JadeExtended extends Jade {
+
+	public static function create(Parser $parser, DumperInterface $dumper, $cache = null) {
+		return new self($parser, $dumper, $cache);
+	}
 
 	public function render($template, array $data) {
 
