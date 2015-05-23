@@ -1,5 +1,5 @@
 {
-  "name": "upweghost/jade.php",
+  "name": "UpWeGhOst/jade.php",
   "autoload": {
 	"psr-0": {
 	  "": "src/"
