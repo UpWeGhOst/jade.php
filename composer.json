@@ -1,4 +1,9 @@
 {
   "name": "upweghost/jade.php",
+  "autoload": {
+	"psr-0": {
+	  "": "src/"
+	}
+  },
   "version": "1.0.0"
 }
